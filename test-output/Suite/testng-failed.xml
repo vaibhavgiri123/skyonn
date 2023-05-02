@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestLayer.LeavePageTest">
+        <methods>
+          <include name="validateApplyLeave"/>
+          <include name="validateClickOnLeavePage"/>
+        </methods>
+      </class> <!-- TestLayer.LeavePageTest -->
+      <class name="TestLayer.RecruitementPageTest">
+        <methods>
+          <include name="validateRecruitmentpage"/>
+          <include name="validateCandidates"/>
+        </methods>
+      </class> <!-- TestLayer.RecruitementPageTest -->
+      <class name="TestLayer.PimPageTest">
+        <methods>
+          <include name="validateEmployeeList"/>
+          <include name="validateReports"/>
+          <include name="validateAddEmployee"/>
+        </methods>
+      </class> <!-- TestLayer.PimPageTest -->
+      <class name="TestLayer.AdminPageTest">
+        <methods>
+          <include name="validateAdminPage"/>
+          <include name="validateGeneralInfo"/>
+          <include name="validateClickOnOrganization"/>
+          <include name="validateJobPage"/>
+        </methods>
+      </class> <!-- TestLayer.AdminPageTest -->
+      <class name="TestLayer.LoginPageTest">
+        <methods>
+          <include name="logincredentials"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestLayer.LoginPageTest -->
+      <class name="TestLayer.TimePageTest">
+        <methods>
+          <include name="validateClickOnTime"/>
+        </methods>
+      </class> <!-- TestLayer.TimePageTest -->
+      <class name="TestLayer.HomePageTest">
+        <methods>
+          <include name="validateCurrenturl"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- TestLayer.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
